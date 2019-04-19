@@ -1,0 +1,25 @@
+2
+2
+true
+e;d;
+e
+2W 2St 8C 3Se 
+119
+8;
+ 
+ 
+ 
+108;111;109;97;
+ 
+d
+2W 3C 2Se 1VP 1FP 
+120
+ 
+56;
+32;
+ 
+102;112;114;105;
+ 
+oneMPMalus  !123!e!d!
+skipFirstActionMalus  !129!
+loseOneVPEveryFive  !139!

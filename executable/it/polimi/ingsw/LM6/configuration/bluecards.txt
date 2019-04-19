@@ -1,0 +1,25 @@
+number;name;era;CoinsCost;BMP;BFP;BVP;Bcouncil;diversiFlag;variableBonusFlag;variabeON;bonusActionFlag;bonusActionON;bonusActionStr;Dwood;Dstone;Dcoins;bonusProdFlag;bonusHarvFlag;bPHStr;Pgreen;Pyellow;Pblue;Ppurple;Pprod;Pharvest;textualFlag
+49;Condottiero;1;2;3;0;0;0;false;false;N;false;N;0;0;0;0;false;false;0;2;0;0;0;0;0;none
+50;Costruttore;1;4;0;0;0;0;false;false;N;false;N;0;0;0;0;false;false;0;0;2;0;0;0;0;woodOrStoneDiscountOnYellow
+51;Dama;1;4;0;0;0;0;false;false;N;false;N;0;0;0;0;false;false;0;0;0;2;0;0;0;oneCoinDiscountOnBlue
+52;Cavaliere;1;2;0;0;0;1;false;false;N;false;N;0;0;0;0;false;false;0;0;0;0;2;0;0;none
+53;Contadino;1;3;0;0;0;0;false;false;N;false;N;0;0;0;0;false;false;0;0;0;0;0;0;2;none
+54;Artigiano;1;3;0;0;0;0;false;false;N;false;N;0;0;0;0;false;false;0;0;0;0;0;2;0;none
+55;Predicatore;1;2;0;4;0;0;false;false;N;false;N;0;0;0;0;false;false;0;0;0;0;0;0;0;noActionSpaceBonus
+56;Badessa;1;3;0;1;0;0;false;false;N;true;E;4;0;0;0;false;false;0;0;0;0;0;0;0;none
+57;Capitano;2;4;2;0;0;0;false;false;N;true;G;6;0;0;0;false;false;0;0;0;0;0;0;0;none
+58;Architetto;2;4;0;0;0;0;false;false;N;true;Y;6;1;1;0;false;false;0;0;0;0;0;0;0;none
+59;Mecenate;2;3;0;0;0;0;false;false;N;true;B;6;0;0;2;false;false;0;0;0;0;0;0;0;none
+60;Eroe;2;4;0;0;0;1;false;false;N;true;P;6;0;0;0;false;false;0;0;0;0;0;0;0;none
+61;Fattore;2;4;0;0;0;0;false;false;N;false;N;0;0;0;0;false;false;0;0;0;0;0;0;3;none
+62;Studioso;2;4;0;0;0;0;false;false;N;false;N;0;0;0;0;false;false;0;0;0;0;0;3;0;none
+63;Messo Papale;2;5;0;3;0;0;false;false;N;false;N;0;0;0;0;false;false;0;0;0;0;0;0;0;none
+64;Messo Reale;2;5;0;0;0;3;true;false;N;false;N;0;0;0;0;false;false;0;2;0;0;0;0;0;none
+65;Nobile;3;6;0;0;2;0;false;true;G;false;N;0;0;0;0;false;false;0;0;0;0;0;0;0;none
+66;Governatore;3;6;0;0;2;0;false;true;Y;false;N;0;0;0;0;false;false;0;0;0;0;0;0;0;none
+67;Cortigiana;3;7;0;0;2;0;false;true;B;false;N;0;0;0;0;false;false;0;0;0;0;0;0;0;none
+68;Araldo;3;6;0;0;2;0;false;true;P;false;N;0;0;0;0;false;false;0;0;0;0;0;0;0;none
+69;Cardinale;3;4;0;2;0;0;false;false;N;false;N;0;0;0;0;false;true;4;0;0;0;0;0;0;none
+70;Vescovo;3;5;0;1;0;0;false;false;N;false;N;0;0;0;0;true;false;4;0;0;0;0;0;0;none
+71;Generale;3;5;0;0;1;0;false;true;M;false;N;0;0;0;0;false;false;0;0;0;0;0;0;0;none
+72;Ambasciatore;3;6;0;0;0;1;false;false;N;true;E;7;0;0;0;false;false;0;0;0;0;0;0;0;none

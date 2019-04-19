@@ -1,0 +1,7 @@
+AnchorPane,Pane{
+    -fx-background-image:url('./resources/background_light.png');
+    -fx-background-repeat: repeat;
+}
+Label, RadioButton{
+	-fx-text-fill:#000000;
+}

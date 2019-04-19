@@ -1,0 +1,5 @@
+4playersFlag;wood;stone;coins;servants;MP;FP;councilBonus;diversiflag
+false;0;0;5;0;0;0;0;false
+false;0;0;0;5;0;0;0;false
+true;0;0;2;0;3;0;0;false
+true;0;0;0;0;0;0;2;true

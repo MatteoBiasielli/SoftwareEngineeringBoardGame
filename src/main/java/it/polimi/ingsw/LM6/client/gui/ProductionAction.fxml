@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.ToggleGroup?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="268.0" prefWidth="619.0" stylesheets="@background.css" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="it.polimi.ingsw.LM6.client.gui.ProductionActionController">
+   <children>
+      <Button fx:id="plus" layoutX="300.0" layoutY="19.0" mnemonicParsing="false" onAction="#onPlusClick" prefHeight="11.0" prefWidth="1.0" text="+">
+         <font>
+            <Font size="10.0" />
+         </font>
+      </Button>
+      <Button fx:id="minus" layoutX="321.0" layoutY="19.0" mnemonicParsing="false" onAction="#onMinusClick" prefHeight="23.0" prefWidth="21.0" text="-">
+         <font>
+            <Font size="10.0" />
+         </font>
+      </Button>
+      <TextField fx:id="servants" editable="false" layoutX="252.0" layoutY="18.0" prefHeight="25.0" prefWidth="48.0" text="0" />
+      <Label layoutX="192.0" layoutY="22.0" text="Servants:" />
+      <Label layoutX="326.0" layoutY="48.0" text="Space" />
+      <RadioButton fx:id="zero" layoutX="311.0" layoutY="74.0" mnemonicParsing="false" selected="true" text="Normal Space">
+         <toggleGroup>
+            <ToggleGroup fx:id="t" />
+         </toggleGroup>
+      </RadioButton>
+      <RadioButton fx:id="one" layoutX="311.0" layoutY="116.0" mnemonicParsing="false" text="Extended Space (-3)" toggleGroup="$t" />
+      <Button fx:id="send" layoutX="268.0" layoutY="229.0" mnemonicParsing="false" onAction="#onSendProductionClick" text="Produce!" />
+      <Label layoutX="174.0" layoutY="48.0" text="Familiar" />
+      <RadioButton fx:id="orange" layoutX="162.0" layoutY="65.0" mnemonicParsing="false" selected="true" text="ORANGE">
+         <toggleGroup>
+            <ToggleGroup fx:id="h" />
+         </toggleGroup>
+      </RadioButton>
+      <RadioButton fx:id="black" layoutX="162.0" layoutY="82.0" mnemonicParsing="false" text="BLACK" toggleGroup="$h" />
+      <RadioButton fx:id="white" layoutX="162.0" layoutY="99.0" mnemonicParsing="false" text="WHITE" toggleGroup="$h" />
+      <RadioButton fx:id="uncoloured" layoutX="162.0" layoutY="116.0" mnemonicParsing="false" text="UNCOLOUR" toggleGroup="$h" />
+      <Label layoutX="214.0" layoutY="144.0" text="Card 2" />
+      <Label layoutX="293.0" layoutY="144.0" text="Card 3" />
+      <Label layoutX="375.0" layoutY="144.0" text="Card 4" />
+      <Label layoutX="462.0" layoutY="144.0" text="Card 5" />
+      <Label layoutX="546.0" layoutY="144.0" text="Card 6" />
+      <Label layoutX="127.0" layoutY="144.0" text="Card 1" />
+      <RadioButton fx:id="card00" layoutX="134.0" layoutY="159.0" mnemonicParsing="false" selected="true">
+         <toggleGroup>
+            <ToggleGroup fx:id="a" />
+         </toggleGroup>
+      </RadioButton>
+      <RadioButton fx:id="card01" layoutX="134.0" layoutY="180.0" mnemonicParsing="false" toggleGroup="$a" />
+      <RadioButton fx:id="card02" layoutX="134.0" layoutY="202.0" mnemonicParsing="false" toggleGroup="$a" />
+      <RadioButton fx:id="card10" layoutX="221.0" layoutY="159.0" mnemonicParsing="false" selected="true">
+         <toggleGroup>
+            <ToggleGroup fx:id="b" />
+         </toggleGroup>
+      </RadioButton>
+      <RadioButton fx:id="card11" layoutX="221.0" layoutY="180.0" mnemonicParsing="false" toggleGroup="$b" />
+      <RadioButton fx:id="card12" layoutX="221.0" layoutY="202.0" mnemonicParsing="false" toggleGroup="$b" />
+      <RadioButton fx:id="card20" layoutX="299.0" layoutY="159.0" mnemonicParsing="false" selected="true">
+         <toggleGroup>
+            <ToggleGroup fx:id="c" />
+         </toggleGroup>
+      </RadioButton>
+      <RadioButton fx:id="card21" layoutX="299.0" layoutY="180.0" mnemonicParsing="false" toggleGroup="$c" />
+      <RadioButton fx:id="card22" layoutX="299.0" layoutY="202.0" mnemonicParsing="false" toggleGroup="$c" />
+      <RadioButton fx:id="card30" layoutX="382.0" layoutY="159.0" mnemonicParsing="false" selected="true">
+         <toggleGroup>
+            <ToggleGroup fx:id="d" />
+         </toggleGroup>
+      </RadioButton>
+      <RadioButton fx:id="card31" layoutX="382.0" layoutY="180.0" mnemonicParsing="false" toggleGroup="$d" />
+      <RadioButton fx:id="card32" layoutX="382.0" layoutY="202.0" mnemonicParsing="false" toggleGroup="$d" />
+      <RadioButton fx:id="card40" layoutX="469.0" layoutY="159.0" mnemonicParsing="false" selected="true">
+         <toggleGroup>
+            <ToggleGroup fx:id="e" />
+         </toggleGroup>
+      </RadioButton>
+      <RadioButton fx:id="card41" layoutX="469.0" layoutY="180.0" mnemonicParsing="false" toggleGroup="$e" />
+      <RadioButton fx:id="card42" layoutX="469.0" layoutY="202.0" mnemonicParsing="false" toggleGroup="$e" />
+      <RadioButton fx:id="card50" layoutX="553.0" layoutY="159.0" mnemonicParsing="false" selected="true">
+         <toggleGroup>
+            <ToggleGroup fx:id="f" />
+         </toggleGroup>
+      </RadioButton>
+      <RadioButton fx:id="card51" layoutX="553.0" layoutY="180.0" mnemonicParsing="false" toggleGroup="$f" />
+      <RadioButton fx:id="card52" layoutX="553.0" layoutY="202.0" mnemonicParsing="false" toggleGroup="$f" />
+      <Label layoutX="14.0" layoutY="159.0" text="Do not activate" />
+      <Label layoutX="14.0" layoutY="180.0" text="Activate 1st effect" />
+      <Label layoutX="14.0" layoutY="202.0" text="Activate 2nd effect" />
+   </children>
+</AnchorPane>

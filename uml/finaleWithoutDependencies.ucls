@@ -1,0 +1,2769 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.2.0" icons="true" automaticImage="JPEG" always-add-relationships="false" 
+  generalizations="true" realizations="true" associations="true" dependencies="false" nesting-relationships="true" 
+  router="FAN">  
+  <class id="1" language="java" name="it.polimi.ingsw.LM6.client.ClientSender" project="LM6" 
+    file="/LM6/src/main/java/it/polimi/ingsw/LM6/client/ClientSender.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="99" width="123" x="1239" y="5168"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="2" language="java" name="it.polimi.ingsw.LM6.client.CLIHandler" project="LM6" 
+    file="/LM6/src/main/java/it/polimi/ingsw/LM6/client/CLIHandler.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="945" width="216" x="6600" y="5168"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <enumeration id="3" language="java" name="it.polimi.ingsw.LM6.client.ActionHeader" project="LM6" 
+    file="/LM6/src/main/java/it/polimi/ingsw/LM6/client/ActionHeader.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="477" width="244" x="2581" y="8038"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </enumeration>  
+  <class id="4" language="java" name="it.polimi.ingsw.LM6.client.RMIClient" project="LM6" 
+    file="/LM6/src/main/java/it/polimi/ingsw/LM6/client/RMIClient.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="171" width="187" x="2934" y="5168"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="5" language="java" name="it.polimi.ingsw.LM6.client.UpdateRunnable" project="LM6" 
+    file="/LM6/src/main/java/it/polimi/ingsw/LM6/client/GUIHandler.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="117" width="198" x="10545" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="6" language="java" name="it.polimi.ingsw.LM6.client.ActionAllowed" project="LM6" 
+    file="/LM6/src/main/java/it/polimi/ingsw/LM6/client/ActionAllowed.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="495" width="194" x="2602" y="7107"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="7" language="java" name="it.polimi.ingsw.LM6.client.SocketClient" project="LM6" 
+    file="/LM6/src/main/java/it/polimi/ingsw/LM6/client/SocketClient.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="207" width="174" x="1402" y="5168"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="8" language="java" name="it.polimi.ingsw.LM6.client.UserOperationStub" project="LM6" 
+    file="/LM6/src/main/java/it/polimi/ingsw/LM6/client/UserOperationStub.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="477" width="257" x="2989" y="7107"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="9" language="java" name="it.polimi.ingsw.LM6.client.ClientController" project="LM6" 
+    file="/LM6/src/main/java/it/polimi/ingsw/LM6/client/ClientController.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="891" width="284" x="6600" y="7107"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="10" language="java" name="it.polimi.ingsw.LM6.client.IClient" project="LM6" 
+    file="/LM6/src/main/java/it/polimi/ingsw/LM6/client/IClient.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="135" width="170" x="1402" y="7107"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="11" language="java" name="it.polimi.ingsw.LM6.client.ClientLauncher" project="LM6" 
+    file="/LM6/src/main/java/it/polimi/ingsw/LM6/client/ClientLauncher.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="117" width="119" x="1753" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="12" language="java" name="it.polimi.ingsw.LM6.client.Waiter" project="LM6" 
+    file="/LM6/src/main/java/it/polimi/ingsw/LM6/client/Waiter.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="99" width="113" x="2836" y="7107"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="13" language="java" name="it.polimi.ingsw.LM6.client.MessageHandler" project="LM6" 
+    file="/LM6/src/main/java/it/polimi/ingsw/LM6/client/MessageHandler.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="81" width="169" x="2246" y="7107"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="14" language="java" name="it.polimi.ingsw.LM6.client.UserOperationStubImpl" project="LM6" 
+    file="/LM6/src/main/java/it/polimi/ingsw/LM6/client/UserOperationStubImpl.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="513" width="292" x="2602" y="5168"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="15" language="java" name="it.polimi.ingsw.LM6.client.GUIHandler" project="LM6" 
+    file="/LM6/src/main/java/it/polimi/ingsw/LM6/client/GUIHandler.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="117" width="170" x="1616" y="5168"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="16" language="java" name="it.polimi.ingsw.LM6.client.gui.GUIMainController" project="LM6" 
+    file="/LM6/src/main/java/it/polimi/ingsw/LM6/client/gui/GUIMainController.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="927" width="192" x="10551" y="788"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="17" language="java" name="it.polimi.ingsw.LM6.server.game.ActionBuildController" project="LM6" 
+    file="/LM6/src/main/java/it/polimi/ingsw/LM6/server/game/ActionBuildController.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="261" width="221" x="3505" y="1755"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <enumeration id="18" language="java" name="it.polimi.ingsw.LM6.server.game.PlayerColour" project="LM6" 
+    file="/LM6/src/main/java/it/polimi/ingsw/LM6/server/game/PlayerColour.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="207" width="144" x="2292" y="4741"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </enumeration>  
+  <class id="19" language="java" name="it.polimi.ingsw.LM6.server.game.ResponseBuilder" project="LM6" 
+    file="/LM6/src/main/java/it/polimi/ingsw/LM6/server/game/ResponseBuilder.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="189" width="395" x="828" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="20" language="java" name="it.polimi.ingsw.LM6.server.game.Player" project="LM6" 
+    file="/LM6/src/main/java/it/polimi/ingsw/LM6/server/game/Player.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="1197" width="350" x="2750" y="3504"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="21" language="java" name="it.polimi.ingsw.LM6.server.game.SocketPlayerGameListener" project="LM6" 
+    file="/LM6/src/main/java/it/polimi/ingsw/LM6/server/game/SocketPlayerGameListener.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="261" width="322" x="1308" y="2609"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="22" language="java" name="it.polimi.ingsw.LM6.server.game.Action" project="LM6" 
+    file="/LM6/src/main/java/it/polimi/ingsw/LM6/server/game/Action.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="495" width="210" x="3535" y="2074"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="23" language="java" name="it.polimi.ingsw.LM6.server.game.LorenzoIlMagnifico" project="LM6" 
+    file="/LM6/src/main/java/it/polimi/ingsw/LM6/server/game/LorenzoIlMagnifico.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="1899" width="346" x="1826" y="5168"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="24" language="java" name="it.polimi.ingsw.LM6.server.game.board.Board" project="LM6" 
+    file="/LM6/src/main/java/it/polimi/ingsw/LM6/server/game/board/Board.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="495" width="275" x="2709" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <enumeration id="25" language="java" name="it.polimi.ingsw.LM6.server.game.board.TowerCardColor" project="LM6" 
+    file="/LM6/src/main/java/it/polimi/ingsw/LM6/server/game/board/TowerCardColor.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="207" width="170" x="3121" y="4741"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </enumeration>  
+  <class id="26" language="java" name="it.polimi.ingsw.LM6.server.game.board.PersonalBonusTile" project="LM6" 
+    file="/LM6/src/main/java/it/polimi/ingsw/LM6/server/game/board/PersonalBonusTile.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="207" width="266" x="1683" y="8555"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="27" language="java" name="it.polimi.ingsw.LM6.server.game.board.spaces.ProductionSpace" project="LM6" 
+    file="/LM6/src/main/java/it/polimi/ingsw/LM6/server/game/board/spaces/ProductionSpace.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="207" width="203" x="2967" y="2074"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="28" language="java" name="it.polimi.ingsw.LM6.server.game.board.spaces.TowerSpace" project="LM6" 
+    file="/LM6/src/main/java/it/polimi/ingsw/LM6/server/game/board/spaces/TowerSpace.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="333" width="203" x="3292" y="2074"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="29" language="java" name="it.polimi.ingsw.LM6.server.game.board.spaces.Market" project="LM6" 
+    file="/LM6/src/main/java/it/polimi/ingsw/LM6/server/game/board/spaces/Market.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="243" width="203" x="2466" y="788"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="30" language="java" name="it.polimi.ingsw.LM6.server.game.board.spaces.ActionSpace" project="LM6" 
+    file="/LM6/src/main/java/it/polimi/ingsw/LM6/server/game/board/spaces/ActionSpace.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="81" width="203" x="1670" y="2609"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="31" language="java" name="it.polimi.ingsw.LM6.server.game.board.spaces.ProductionArea" project="LM6" 
+    file="/LM6/src/main/java/it/polimi/ingsw/LM6/server/game/board/spaces/ProductionArea.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="351" width="227" x="2967" y="788"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="32" language="java" name="it.polimi.ingsw.LM6.server.game.board.spaces.MarketSpace" project="LM6" 
+    file="/LM6/src/main/java/it/polimi/ingsw/LM6/server/game/board/spaces/MarketSpace.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="189" width="203" x="2466" y="2074"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="33" language="java" name="it.polimi.ingsw.LM6.server.game.board.spaces.Council" project="LM6" 
+    file="/LM6/src/main/java/it/polimi/ingsw/LM6/server/game/board/spaces/Council.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="171" width="218" x="2709" y="788"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="34" language="java" name="it.polimi.ingsw.LM6.server.game.board.spaces.CouncilSpace" project="LM6" 
+    file="/LM6/src/main/java/it/polimi/ingsw/LM6/server/game/board/spaces/CouncilSpace.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="153" width="203" x="2709" y="2074"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="35" language="java" name="it.polimi.ingsw.LM6.server.game.board.spaces.Tower" project="LM6" 
+    file="/LM6/src/main/java/it/polimi/ingsw/LM6/server/game/board/spaces/Tower.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="315" width="411" x="3238" y="788"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="36" language="java" name="it.polimi.ingsw.LM6.server.game.bonuses.Bonus" project="LM6" 
+    file="/LM6/src/main/java/it/polimi/ingsw/LM6/server/game/bonuses/Bonus.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="765" width="489" x="1989" y="8555"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="37" language="java" name="it.polimi.ingsw.LM6.server.game.bonuses.PermanentBonusMalus" project="LM6" 
+    file="/LM6/src/main/java/it/polimi/ingsw/LM6/server/game/bonuses/PermanentBonusMalus.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="567" width="312" x="4365" y="5168"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="38" language="java" name="it.polimi.ingsw.LM6.server.game.bonuses.ResourceSet" project="LM6" 
+    file="/LM6/src/main/java/it/polimi/ingsw/LM6/server/game/bonuses/ResourceSet.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="603" width="219" x="3635" y="9360"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="39" language="java" name="it.polimi.ingsw.LM6.server.game.card.BlueCard" project="LM6" 
+    file="/LM6/src/main/java/it/polimi/ingsw/LM6/server/game/card/BlueCard.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="171" width="168" x="4365" y="4741"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="40" language="java" name="it.polimi.ingsw.LM6.server.game.card.ExcommunicationCard" project="LM6" 
+    file="/LM6/src/main/java/it/polimi/ingsw/LM6/server/game/card/ExcommunicationCard.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="261" width="233" x="10257" y="788"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="41" language="java" name="it.polimi.ingsw.LM6.server.game.card.GreenCard" project="LM6" 
+    file="/LM6/src/main/java/it/polimi/ingsw/LM6/server/game/card/GreenCard.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="225" width="168" x="2913" y="4741"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="42" language="java" name="it.polimi.ingsw.LM6.server.game.card.ExchangeProduction" project="LM6" 
+    file="/LM6/src/main/java/it/polimi/ingsw/LM6/server/game/card/ExchangeProduction.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="117" width="230" x="1239" y="8038"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="43" language="java" name="it.polimi.ingsw.LM6.server.game.card.LeaderCard" project="LM6" 
+    file="/LM6/src/main/java/it/polimi/ingsw/LM6/server/game/card/LeaderCard.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="333" width="196" x="3352" y="4741"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="44" language="java" name="it.polimi.ingsw.LM6.server.game.card.Production" project="LM6" 
+    file="/LM6/src/main/java/it/polimi/ingsw/LM6/server/game/card/Production.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="99" width="203" x="2655" y="8555"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="45" language="java" name="it.polimi.ingsw.LM6.server.game.card.Card" project="LM6" 
+    file="/LM6/src/main/java/it/polimi/ingsw/LM6/server/game/card/Card.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="297" width="229" x="3787" y="3504"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="46" language="java" name="it.polimi.ingsw.LM6.server.game.card.PurpleCard" project="LM6" 
+    file="/LM6/src/main/java/it/polimi/ingsw/LM6/server/game/card/PurpleCard.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="225" width="168" x="3635" y="8555"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="47" language="java" name="it.polimi.ingsw.LM6.server.game.card.FixedProduction" project="LM6" 
+    file="/LM6/src/main/java/it/polimi/ingsw/LM6/server/game/card/FixedProduction.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="117" width="203" x="2254" y="8038"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="48" language="java" name="it.polimi.ingsw.LM6.server.game.card.YellowCard" project="LM6" 
+    file="/LM6/src/main/java/it/polimi/ingsw/LM6/server/game/card/YellowCard.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="243" width="219" x="3563" y="8038"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="49" language="java" name="it.polimi.ingsw.LM6.server.game.effects.NoPurpleVP" project="LM6" 
+    file="/LM6/src/main/java/it/polimi/ingsw/LM6/server/game/effects/NoPurpleVP.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="135" width="178" x="4354" y="8038"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="50" language="java" name="it.polimi.ingsw.LM6.server.game.effects.OneServantMalus" project="LM6" 
+    file="/LM6/src/main/java/it/polimi/ingsw/LM6/server/game/effects/OneServantMalus.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="135" width="178" x="4572" y="8038"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="51" language="java" name="it.polimi.ingsw.LM6.server.game.effects.NoMilitaryRequirements" project="LM6" 
+    file="/LM6/src/main/java/it/polimi/ingsw/LM6/server/game/effects/NoMilitaryRequirements.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="135" width="282" x="8975" y="8038"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="52" language="java" name="it.polimi.ingsw.LM6.server.game.effects.OneMPMalus" project="LM6" 
+    file="/LM6/src/main/java/it/polimi/ingsw/LM6/server/game/effects/OneMPMalus.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="135" width="178" x="5361" y="8038"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="53" language="java" name="it.polimi.ingsw.LM6.server.game.effects.LoseOneVPEveryRes" project="LM6" 
+    file="/LM6/src/main/java/it/polimi/ingsw/LM6/server/game/effects/LoseOneVPEveryRes.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="135" width="214" x="9769" y="8038"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="54" language="java" name="it.polimi.ingsw.LM6.server.game.effects.CannotUseMarketMalus" project="LM6" 
+    file="/LM6/src/main/java/it/polimi/ingsw/LM6/server/game/effects/CannotUseMarketMalus.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="135" width="178" x="5579" y="8038"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="55" language="java" name="it.polimi.ingsw.LM6.server.game.effects.OneCoinDiscountOnBlue" project="LM6" 
+    file="/LM6/src/main/java/it/polimi/ingsw/LM6/server/game/effects/OneCoinDiscountOnBlue.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="135" width="223" x="5797" y="8038"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="56" language="java" name="it.polimi.ingsw.LM6.server.game.effects.FixedFiveBonus" project="LM6" 
+    file="/LM6/src/main/java/it/polimi/ingsw/LM6/server/game/effects/FixedFiveBonus.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="135" width="190" x="4124" y="8038"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="57" language="java" name="it.polimi.ingsw.LM6.server.game.effects.BonusHarvest" project="LM6" 
+    file="/LM6/src/main/java/it/polimi/ingsw/LM6/server/game/effects/BonusHarvest.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="171" width="178" x="3089" y="8038"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="58" language="java" name="it.polimi.ingsw.LM6.server.game.effects.LoseOneVPEveryMP" project="LM6" 
+    file="/LM6/src/main/java/it/polimi/ingsw/LM6/server/game/effects/LoseOneVPEveryMP.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="135" width="214" x="6882" y="8038"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="59" language="java" name="it.polimi.ingsw.LM6.server.game.effects.NoActionSpaceBonus" project="LM6" 
+    file="/LM6/src/main/java/it/polimi/ingsw/LM6/server/game/effects/NoActionSpaceBonus.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="135" width="252" x="5069" y="8038"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="60" language="java" name="it.polimi.ingsw.LM6.server.game.effects.NoTowerCoinsCost" project="LM6" 
+    file="/LM6/src/main/java/it/polimi/ingsw/LM6/server/game/effects/NoTowerCoinsCost.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="135" width="239" x="8407" y="8038"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="61" language="java" name="it.polimi.ingsw.LM6.server.game.effects.OneCoinMalus" project="LM6" 
+    file="/LM6/src/main/java/it/polimi/ingsw/LM6/server/game/effects/OneCoinMalus.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="135" width="178" x="10270" y="8038"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="62" language="java" name="it.polimi.ingsw.LM6.server.game.effects.WoodOrStoneDiscountOnYellow" 
+    project="LM6" file="/LM6/src/main/java/it/polimi/ingsw/LM6/server/game/effects/WoodOrStoneDiscountOnYellow.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="135" width="249" x="6278" y="8038"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="63" language="java" name="it.polimi.ingsw.LM6.server.game.effects.Effect" project="LM6" 
+    file="/LM6/src/main/java/it/polimi/ingsw/LM6/server/game/effects/Effect.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="495" width="282" x="6278" y="7107"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="64" language="java" name="it.polimi.ingsw.LM6.server.game.effects.OneRockWoodMalus" project="LM6" 
+    file="/LM6/src/main/java/it/polimi/ingsw/LM6/server/game/effects/OneRockWoodMalus.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="135" width="178" x="9551" y="8038"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="65" language="java" name="it.polimi.ingsw.LM6.server.game.effects.EveryTurnBonus" project="LM6" 
+    file="/LM6/src/main/java/it/polimi/ingsw/LM6/server/game/effects/EveryTurnBonus.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="171" width="216" x="3307" y="8038"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="66" language="java" name="it.polimi.ingsw.LM6.server.game.effects.LoseOneVPEveryFive" project="LM6" 
+    file="/LM6/src/main/java/it/polimi/ingsw/LM6/server/game/effects/LoseOneVPEveryFive.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="135" width="214" x="9297" y="8038"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="67" language="java" name="it.polimi.ingsw.LM6.server.game.effects.NoGreenVP" project="LM6" 
+    file="/LM6/src/main/java/it/polimi/ingsw/LM6/server/game/effects/NoGreenVP.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="135" width="178" x="7136" y="8038"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="68" language="java" name="it.polimi.ingsw.LM6.server.game.effects.SkipFirstActionMalus" project="LM6" 
+    file="/LM6/src/main/java/it/polimi/ingsw/LM6/server/game/effects/SkipFirstActionMalus.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="135" width="178" x="6060" y="8038"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="69" language="java" name="it.polimi.ingsw.LM6.server.game.effects.BonusProduction" project="LM6" 
+    file="/LM6/src/main/java/it/polimi/ingsw/LM6/server/game/effects/BonusProduction.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="171" width="184" x="2865" y="8038"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="70" language="java" name="it.polimi.ingsw.LM6.server.game.effects.CanGoInOccupiedSpaces" project="LM6" 
+    file="/LM6/src/main/java/it/polimi/ingsw/LM6/server/game/effects/CanGoInOccupiedSpaces.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="135" width="207" x="10023" y="8038"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="71" language="java" name="it.polimi.ingsw.LM6.server.game.effects.DoubleServantMalus" project="LM6" 
+    file="/LM6/src/main/java/it/polimi/ingsw/LM6/server/game/effects/DoubleServantMalus.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="135" width="178" x="7971" y="8038"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="72" language="java" name="it.polimi.ingsw.LM6.server.game.effects.LoseOneVPEveryWoodStoneYellowCost" 
+    project="LM6" 
+    file="/LM6/src/main/java/it/polimi/ingsw/LM6/server/game/effects/LoseOneVPEveryWoodStoneYellowCost.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="135" width="259" x="7672" y="8038"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="73" language="java" name="it.polimi.ingsw.LM6.server.game.effects.FaithBonus" project="LM6" 
+    file="/LM6/src/main/java/it/polimi/ingsw/LM6/server/game/effects/FaithBonus.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="135" width="178" x="8189" y="8038"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="74" language="java" name="it.polimi.ingsw.LM6.server.game.effects.NoBlueVP" project="LM6" 
+    file="/LM6/src/main/java/it/polimi/ingsw/LM6/server/game/effects/NoBlueVP.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="135" width="178" x="3906" y="8038"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="75" language="java" name="it.polimi.ingsw.LM6.server.game.effects.ThreeCoinsDiscount" project="LM6" 
+    file="/LM6/src/main/java/it/polimi/ingsw/LM6/server/game/effects/ThreeCoinsDiscount.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="189" width="249" x="8686" y="8038"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="76" language="java" name="it.polimi.ingsw.LM6.server.game.effects.NumericEffect" project="LM6" 
+    file="/LM6/src/main/java/it/polimi/ingsw/LM6/server/game/effects/NumericEffect.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="297" width="239" x="4790" y="8038"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="77" language="java" name="it.polimi.ingsw.LM6.server.game.effects.OneSixFamiliarPerTurn" project="LM6" 
+    file="/LM6/src/main/java/it/polimi/ingsw/LM6/server/game/effects/OneSixFamiliarPerTurn.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="171" width="278" x="7354" y="8038"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="78" language="java" name="it.polimi.ingsw.LM6.server.game.effects.DoubleWoodStoneCoinsServantsFromCards" 
+    project="LM6" 
+    file="/LM6/src/main/java/it/polimi/ingsw/LM6/server/game/effects/DoubleWoodStoneCoinsServantsFromCards.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="135" width="275" x="6567" y="8038"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="79" language="java" name="it.polimi.ingsw.LM6.server.game.familiar.Familiar" project="LM6" 
+    file="/LM6/src/main/java/it/polimi/ingsw/LM6/server/game/familiar/Familiar.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="261" width="178" x="2749" y="2609"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <enumeration id="80" language="java" name="it.polimi.ingsw.LM6.server.game.familiar.FamiliarColor" project="LM6" 
+    file="/LM6/src/main/java/it/polimi/ingsw/LM6/server/game/familiar/FamiliarColor.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="207" width="178" x="2292" y="3504"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </enumeration>  
+  <class id="81" language="java" name="it.polimi.ingsw.LM6.server.game.scores.Scoreboard" project="LM6" 
+    file="/LM6/src/main/java/it/polimi/ingsw/LM6/server/game/scores/Scoreboard.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="387" width="248" x="1962" y="4741"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="82" language="java" name="it.polimi.ingsw.LM6.server.game.scores.Record" project="LM6" 
+    file="/LM6/src/main/java/it/polimi/ingsw/LM6/server/game/scores/Record.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="531" width="203" x="2212" y="5168"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="83" language="java" name="it.polimi.ingsw.LM6.server.game.states.CouncilState" project="LM6" 
+    file="/LM6/src/main/java/it/polimi/ingsw/LM6/server/game/states/CouncilState.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="207" width="212" x="2709" y="1755"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="84" language="java" name="it.polimi.ingsw.LM6.server.game.states.ProductionAreaState" project="LM6" 
+    file="/LM6/src/main/java/it/polimi/ingsw/LM6/server/game/states/ProductionAreaState.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="279" width="279" x="2967" y="1755"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="85" language="java" name="it.polimi.ingsw.LM6.server.game.states.TowerState" project="LM6" 
+    file="/LM6/src/main/java/it/polimi/ingsw/LM6/server/game/states/TowerState.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="279" width="374" x="3766" y="1755"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="86" language="java" name="it.polimi.ingsw.LM6.server.game.states.GameState" project="LM6" 
+    file="/LM6/src/main/java/it/polimi/ingsw/LM6/server/game/states/GameState.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="747" width="283" x="2967" y="2609"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="87" language="java" name="it.polimi.ingsw.LM6.server.game.timer.ExcommunicationPhaseTimer" project="LM6" 
+    file="/LM6/src/main/java/it/polimi/ingsw/LM6/server/game/timer/ExcommunicationPhaseTimer.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="99" width="286" x="570" y="5168"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="88" language="java" name="it.polimi.ingsw.LM6.server.game.timer.Timer" project="LM6" 
+    file="/LM6/src/main/java/it/polimi/ingsw/LM6/server/game/timer/Timer.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="135" width="173" x="570" y="4741"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="89" language="java" name="it.polimi.ingsw.LM6.server.game.timer.GameStartTimer" project="LM6" 
+    file="/LM6/src/main/java/it/polimi/ingsw/LM6/server/game/timer/GameStartTimer.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="99" width="224" x="306" y="5168"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="90" language="java" name="it.polimi.ingsw.LM6.server.game.timer.PlayerTurnTimer" project="LM6" 
+    file="/LM6/src/main/java/it/polimi/ingsw/LM6/server/game/timer/PlayerTurnTimer.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="135" width="225" x="41" y="5168"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="91" language="java" name="it.polimi.ingsw.LM6.server.game.timer.GameResumeTimer" project="LM6" 
+    file="/LM6/src/main/java/it/polimi/ingsw/LM6/server/game/timer/GameResumeTimer.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="99" width="240" x="896" y="5168"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="92" language="java" name="it.polimi.ingsw.LM6.server.network.ConnectionSetupMethods" project="LM6" 
+    file="/LM6/src/main/java/it/polimi/ingsw/LM6/server/network/ConnectionSetupMethods.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="297" width="297" x="1339" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="93" language="java" name="it.polimi.ingsw.LM6.server.network.NetworkData" project="LM6" 
+    file="/LM6/src/main/java/it/polimi/ingsw/LM6/server/network/NetworkData.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="279" width="251" x="1831" y="3504"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="94" language="java" name="it.polimi.ingsw.LM6.server.network.SetupMessage" project="LM6" 
+    file="/LM6/src/main/java/it/polimi/ingsw/LM6/server/network/SetupMessage.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="257" y="492"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <enumeration id="95" language="java" name="it.polimi.ingsw.LM6.server.network.SetupHeader" project="LM6" 
+    file="/LM6/src/main/java/it/polimi/ingsw/LM6/server/network/SetupHeader.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="243" width="199" x="514" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </enumeration>  
+  <class id="96" language="java" name="it.polimi.ingsw.LM6.server.network.ServerLauncher" project="LM6" 
+    file="/LM6/src/main/java/it/polimi/ingsw/LM6/server/network/ServerLauncher.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="189" width="153" x="3651" y="4741"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="97" language="java" name="it.polimi.ingsw.LM6.server.network.rmi.GameActionImpl" project="LM6" 
+    file="/LM6/src/main/java/it/polimi/ingsw/LM6/server/network/rmi/GameActionImpl.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="855" width="415" x="2252" y="2609"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="98" language="java" name="it.polimi.ingsw.LM6.server.network.rmi.IConnectionSetupHandler" project="LM6" 
+    file="/LM6/src/main/java/it/polimi/ingsw/LM6/server/network/rmi/IConnectionSetupHandler.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="135" width="222" x="4476" y="7107"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="99" language="java" name="it.polimi.ingsw.LM6.server.network.rmi.RMIConnectionStatusChecker" project="LM6" 
+    file="/LM6/src/main/java/it/polimi/ingsw/LM6/server/network/rmi/RMIConnectionStatusChecker.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="117" width="299" x="1913" y="2609"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="100" language="java" name="it.polimi.ingsw.LM6.server.network.rmi.IWelcomeImpl" project="LM6" 
+    file="/LM6/src/main/java/it/polimi/ingsw/LM6/server/network/rmi/IWelcomeImpl.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="99" width="351" x="3651" y="5168"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="101" language="java" name="it.polimi.ingsw.LM6.server.network.rmi.IWelcome" project="LM6" 
+    file="/LM6/src/main/java/it/polimi/ingsw/LM6/server/network/rmi/IWelcome.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="81" width="351" x="3630" y="7107"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <interface id="102" language="java" name="it.polimi.ingsw.LM6.server.network.rmi.GameAction" project="LM6" 
+    file="/LM6/src/main/java/it/polimi/ingsw/LM6/server/network/rmi/GameAction.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="549" width="415" x="4021" y="7107"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="103" language="java" name="it.polimi.ingsw.LM6.server.network.rmi.IConnectionSetupHandlerImpl" 
+    project="LM6" file="/LM6/src/main/java/it/polimi/ingsw/LM6/server/network/rmi/IConnectionSetupHandlerImpl.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="153" width="222" x="4103" y="4741"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="104" language="java" name="it.polimi.ingsw.LM6.server.network.socket.SocketServer" project="LM6" 
+    file="/LM6/src/main/java/it/polimi/ingsw/LM6/server/network/socket/SocketServer.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="153" width="245" x="2344" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="105" language="java" name="it.polimi.ingsw.LM6.server.network.socket.SocketConnectionSetupHandler" 
+    project="LM6" file="/LM6/src/main/java/it/polimi/ingsw/LM6/server/network/socket/SocketConnectionSetupHandler.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="153" width="235" x="1990" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="106" language="java" name="it.polimi.ingsw.LM6.server.users.RMIUser" project="LM6" 
+    file="/LM6/src/main/java/it/polimi/ingsw/LM6/server/users/RMIUser.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="189" width="203" x="3366" y="5168"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="107" language="java" name="it.polimi.ingsw.LM6.server.users.SocketUser" project="LM6" 
+    file="/LM6/src/main/java/it/polimi/ingsw/LM6/server/users/SocketUser.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="189" width="144" x="3161" y="5168"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="108" language="java" name="it.polimi.ingsw.LM6.server.users.IUser" project="LM6" 
+    file="/LM6/src/main/java/it/polimi/ingsw/LM6/server/users/IUser.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="243" width="190" x="2539" y="4741"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <association id="109">    
+    <bendpoint x="2882" y="4741"/>    
+    <bendpoint x="3335" y="5168"/>    
+    <bendpoint x="3578" y="7107"/>    
+    <bendpoint x="3812" y="8038"/>    
+    <end type="SOURCE" refId="20" navigable="false">      
+      <attribute id="110" name="purpleCards">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="111" minimum="0" maximum="2147483647">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="46" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="112">    
+    <end type="SOURCE" refId="48" navigable="false">      
+      <attribute id="113" name="secondProduction">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="114" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="44" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="115">    
+    <end type="SOURCE" refId="67"/>    
+    <end type="TARGET" refId="63"/>  
+  </generalization>  
+  <generalization id="116">    
+    <end type="SOURCE" refId="87"/>    
+    <end type="TARGET" refId="88"/>  
+  </generalization>  
+  <association id="117">    
+    <end type="SOURCE" refId="27" navigable="false">      
+      <attribute id="118" name="familiar">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="119" minimum="0" maximum="2147483647">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="79" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="120">    
+    <end type="SOURCE" refId="9" navigable="false">      
+      <attribute id="121" name="view">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="122" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="2" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="123">    
+    <end type="SOURCE" refId="31" navigable="false">      
+      <attribute id="124" name="state">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="125" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="84" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="126">    
+    <end type="SOURCE" refId="69"/>    
+    <end type="TARGET" refId="63"/>  
+  </generalization>  
+  <realization id="127">    
+    <end type="SOURCE" refId="28"/>    
+    <end type="TARGET" refId="30"/>  
+  </realization>  
+  <association id="128">    
+    <end type="SOURCE" refId="24" navigable="false">      
+      <attribute id="129" name="council">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="130" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="33" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="131">    
+    <bendpoint x="2475" y="1755"/>    
+    <end type="SOURCE" refId="29" navigable="false">      
+      <attribute id="132" name="marketSpaces">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="133" minimum="0" maximum="2147483647">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="32" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="134">    
+    <end type="SOURCE" refId="89"/>    
+    <end type="TARGET" refId="88"/>  
+  </generalization>  
+  <association id="135">    
+    <end type="SOURCE" refId="20" navigable="false">      
+      <attribute id="136" name="color">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="137" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="18" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="138">    
+    <end type="SOURCE" refId="39" navigable="false">      
+      <attribute id="139" name="permanentBonus">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="140" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="37" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="141">    
+    <end type="SOURCE" refId="93" navigable="false">      
+      <attribute id="142" name="users">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="143" minimum="0" maximum="2147483647">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="108" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="144">    
+    <bendpoint x="2261" y="3504"/>    
+    <bendpoint x="2261" y="4741"/>    
+    <bendpoint x="2445" y="5168"/>    
+    <bendpoint x="2445" y="7107"/>    
+    <bendpoint x="2223" y="8038"/>    
+    <end type="SOURCE" refId="97" navigable="false">      
+      <attribute id="145" name="temporalBonus">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="146" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="36" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="147">    
+    <end type="SOURCE" refId="91"/>    
+    <end type="TARGET" refId="88"/>  
+  </generalization>  
+  <association id="148">    
+    <end type="SOURCE" refId="24" navigable="false">      
+      <attribute id="149" name="market">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="150" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="29" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="151">    
+    <end type="SOURCE" refId="71"/>    
+    <end type="TARGET" refId="63"/>  
+  </generalization>  
+  <generalization id="152">    
+    <end type="SOURCE" refId="72"/>    
+    <end type="TARGET" refId="63"/>  
+  </generalization>  
+  <association id="153">    
+    <end type="SOURCE" refId="5" navigable="false">      
+      <attribute id="154" name="controller">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="155" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="16" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="156">    
+    <end type="SOURCE" refId="58"/>    
+    <end type="TARGET" refId="63"/>  
+  </generalization>  
+  <association id="157">    
+    <end type="SOURCE" refId="20" navigable="false">      
+      <attribute id="158" name="blueCards">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="159" minimum="0" maximum="2147483647">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="39" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="160">    
+    <end type="SOURCE" refId="48" navigable="false">      
+      <attribute id="161" name="firstProduction">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="162" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="44" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="163">    
+    <end type="SOURCE" refId="76"/>    
+    <end type="TARGET" refId="63"/>  
+  </generalization>  
+  <association id="164">    
+    <bendpoint x="1576" y="3504"/>    
+    <bendpoint x="1576" y="4741"/>    
+    <end type="SOURCE" refId="21" navigable="false">      
+      <attribute id="165" name="game">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="166" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="23" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="167">    
+    <end type="SOURCE" refId="42" navigable="false">      
+      <attribute id="168" name="gain">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="169" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="36" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="170">    
+    <end type="SOURCE" refId="84" navigable="false">      
+      <attribute id="171" name="productions">        
+        <position height="18" width="65" x="3083" y="1646"/>      
+      </attribute>      
+      <multiplicity id="172" minimum="0" maximum="2147483647">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="27" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="173">    
+    <end type="SOURCE" refId="32" navigable="false">      
+      <attribute id="174" name="familiar">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="175" minimum="0" maximum="2147483647">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="79" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="176">    
+    <bendpoint x="3599" y="5168"/>    
+    <bendpoint x="3599" y="7107"/>    
+    <bendpoint x="3833" y="8038"/>    
+    <bendpoint x="3833" y="8555"/>    
+    <end type="SOURCE" refId="43" navigable="false">      
+      <attribute id="177" name="resourcesRequired">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="178" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="38" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="179">    
+    <end type="SOURCE" refId="69" navigable="false">      
+      <attribute id="180" name="everyTurnBonus">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="181" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="36" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="182">    
+    <end type="SOURCE" refId="53"/>    
+    <end type="TARGET" refId="63"/>  
+  </generalization>  
+  <association id="183">    
+    <bendpoint x="3620" y="2609"/>    
+    <end type="SOURCE" refId="28" navigable="false">      
+      <attribute id="184" name="associatedCard">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="185" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="45" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="186">    
+    <end type="SOURCE" refId="33" navigable="false">      
+      <attribute id="187" name="state">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="188" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="83" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="189">    
+    <bendpoint x="2466" y="4741"/>    
+    <bendpoint x="2466" y="5168"/>    
+    <bendpoint x="2466" y="7107"/>    
+    <bendpoint x="2202" y="8038"/>    
+    <end type="SOURCE" refId="20" navigable="false">      
+      <attribute id="190" name="personalBonusTile">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="191" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="26" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="192">    
+    <end type="SOURCE" refId="90"/>    
+    <end type="TARGET" refId="88"/>  
+  </generalization>  
+  <association id="193">    
+    <end type="SOURCE" refId="57" navigable="false">      
+      <attribute id="194" name="everyTurnBonus">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="195" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="36" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="196">    
+    <end type="SOURCE" refId="17" navigable="false">      
+      <attribute id="197" name="a">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="198" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="22" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="199">    
+    <end type="SOURCE" refId="47"/>    
+    <end type="TARGET" refId="44"/>  
+  </realization>  
+  <realization id="200">    
+    <bendpoint x="3578" y="3504"/>    
+    <bendpoint x="3578" y="4741"/>    
+    <bendpoint x="4032" y="5168"/>    
+    <end type="SOURCE" refId="97"/>    
+    <end type="TARGET" refId="102"/>  
+  </realization>  
+  <association id="201">    
+    <bendpoint x="1271" y="2609"/>    
+    <bendpoint x="1229" y="3504"/>    
+    <bendpoint x="1187" y="4741"/>    
+    <bendpoint x="1187" y="5168"/>    
+    <bendpoint x="1187" y="7107"/>    
+    <bendpoint x="1187" y="8038"/>    
+    <end type="SOURCE" refId="34" navigable="false">      
+      <attribute id="202" name="immediateBonus">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="203" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="36" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="204">    
+    <end type="SOURCE" refId="24" navigable="false">      
+      <attribute id="205" name="excommunications">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="206" minimum="0" maximum="2147483647">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="40" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="207">    
+    <end type="SOURCE" refId="65" navigable="false">      
+      <attribute id="208" name="everyTurnBonusValues">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="209" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="36" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="210">    
+    <end type="SOURCE" refId="42"/>    
+    <end type="TARGET" refId="44"/>  
+  </realization>  
+  <association id="211">    
+    <end type="SOURCE" refId="84" navigable="false">      
+      <attribute id="212" name="firstProduction">        
+        <position height="18" width="78" x="3112" y="1623"/>      
+      </attribute>      
+      <multiplicity id="213" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="27" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="214">    
+    <end type="SOURCE" refId="50"/>    
+    <end type="TARGET" refId="63"/>  
+  </generalization>  
+  <association id="215">    
+    <bendpoint x="2697" y="2609"/>    
+    <end type="SOURCE" refId="32" navigable="false">      
+      <attribute id="216" name="player">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="217" minimum="0" maximum="2147483647">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="20" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="218">    
+    <bendpoint x="4299" y="5168"/>    
+    <end type="SOURCE" refId="103"/>    
+    <end type="TARGET" refId="98"/>  
+  </realization>  
+  <association id="219">    
+    <end type="SOURCE" refId="28" navigable="false">      
+      <attribute id="220" name="familiar">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="221" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="79" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="222">    
+    <end type="SOURCE" refId="79" navigable="false">      
+      <attribute id="223" name="colour">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="224" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="80" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="225">    
+    <bendpoint x="2487" y="4741"/>    
+    <bendpoint x="2487" y="5168"/>    
+    <bendpoint x="2487" y="7107"/>    
+    <bendpoint x="2487" y="8038"/>    
+    <bendpoint x="2508" y="8555"/>    
+    <end type="SOURCE" refId="20" navigable="false">      
+      <attribute id="226" name="resources">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="227" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="38" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="228">    
+    <end type="SOURCE" refId="32"/>    
+    <end type="TARGET" refId="30"/>  
+  </realization>  
+  <generalization id="229">    
+    <end type="SOURCE" refId="41"/>    
+    <end type="TARGET" refId="45"/>  
+  </generalization>  
+  <generalization id="230">    
+    <end type="SOURCE" refId="57"/>    
+    <end type="TARGET" refId="63"/>  
+  </generalization>  
+  <association id="231">    
+    <end type="SOURCE" refId="20" navigable="false">      
+      <attribute id="232" name="leaderCardsPlayed">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="233" minimum="0" maximum="2147483647">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="43" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="234">    
+    <end type="SOURCE" refId="26" navigable="false">      
+      <attribute id="235" name="harvestSet">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="236" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="38" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="237">    
+    <bendpoint x="1848" y="4741"/>    
+    <end type="SOURCE" refId="93" navigable="false">      
+      <attribute id="238" name="savedGames">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="239" minimum="0" maximum="2147483647">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="23" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="240">    
+    <bendpoint x="1652" y="8555"/>    
+    <end type="SOURCE" refId="42" navigable="false">      
+      <attribute id="241" name="cost">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="242" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="38" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="243">    
+    <end type="SOURCE" refId="4" navigable="false">      
+      <attribute id="244" name="buffer">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="245" minimum="0" maximum="2147483647">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="6" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="246">    
+    <bendpoint x="1827" y="4741"/>    
+    <end type="SOURCE" refId="93" navigable="false">      
+      <attribute id="247" name="games">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="248" minimum="0" maximum="2147483647">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="23" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="249">    
+    <end type="SOURCE" refId="75"/>    
+    <end type="TARGET" refId="63"/>  
+  </generalization>  
+  <realization id="250">    
+    <end type="SOURCE" refId="7"/>    
+    <end type="TARGET" refId="10"/>  
+  </realization>  
+  <generalization id="251">    
+    <end type="SOURCE" refId="60"/>    
+    <end type="TARGET" refId="63"/>  
+  </generalization>  
+  <association id="252">    
+    <end type="SOURCE" refId="85" navigable="false">      
+      <attribute id="253" name="spaces">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="254" minimum="0" maximum="2147483647">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="28" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="255">    
+    <end type="SOURCE" refId="93" navigable="false">      
+      <attribute id="256" name="globalScoreboard">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="257" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="81" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="258">    
+    <end type="SOURCE" refId="6" navigable="false">      
+      <attribute id="259" name="act">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="260" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="3" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="261">    
+    <end type="SOURCE" refId="100"/>    
+    <end type="TARGET" refId="101"/>  
+  </realization>  
+  <association id="262">    
+    <end type="SOURCE" refId="99" navigable="false">      
+      <attribute id="263" name="player">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="264" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="20" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="265">    
+    <end type="SOURCE" refId="1" navigable="false">      
+      <attribute id="266" name="user">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="267" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="10" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="268">    
+    <end type="SOURCE" refId="70"/>    
+    <end type="TARGET" refId="63"/>  
+  </generalization>  
+  <realization id="269">    
+    <end type="SOURCE" refId="15"/>    
+    <end type="TARGET" refId="13"/>  
+  </realization>  
+  <association id="270">    
+    <bendpoint x="2718" y="2609"/>    
+    <end type="SOURCE" refId="34" navigable="false">      
+      <attribute id="271" name="player">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="272" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="20" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="273">    
+    <bendpoint x="3796" y="2074"/>    
+    <bendpoint x="3796" y="2609"/>    
+    <end type="SOURCE" refId="85" navigable="false">      
+      <attribute id="274" name="cards">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="275" minimum="0" maximum="2147483647">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="45" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="276">    
+    <end type="SOURCE" refId="46" navigable="false">      
+      <attribute id="277" name="secondCost">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="278" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="38" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="279">    
+    <end type="SOURCE" refId="55"/>    
+    <end type="TARGET" refId="63"/>  
+  </generalization>  
+  <association id="280">    
+    <end type="SOURCE" refId="43" navigable="false">      
+      <attribute id="281" name="permanentBonus">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="282" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="37" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="283">    
+    <end type="SOURCE" refId="97" navigable="false">      
+      <attribute id="284" name="player">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="285" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="20" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="286">    
+    <end type="SOURCE" refId="47" navigable="false">      
+      <attribute id="287" name="produce">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="288" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="36" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="289">    
+    <end type="SOURCE" refId="64"/>    
+    <end type="TARGET" refId="63"/>  
+  </generalization>  
+  <generalization id="290">    
+    <end type="SOURCE" refId="39"/>    
+    <end type="TARGET" refId="45"/>  
+  </generalization>  
+  <association id="291">    
+    <bendpoint x="3775" y="2074"/>    
+    <bendpoint x="3775" y="2609"/>    
+    <bendpoint x="3756" y="3504"/>    
+    <end type="SOURCE" refId="85" navigable="false">      
+      <attribute id="292" name="color">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="293" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="25" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="294">    
+    <end type="SOURCE" refId="21" navigable="false">      
+      <attribute id="295" name="player">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="296" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="20" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="297">    
+    <bendpoint x="3754" y="2609"/>    
+    <bendpoint x="7116" y="3504"/>    
+    <bendpoint x="10478" y="4741"/>    
+    <bendpoint x="10478" y="5168"/>    
+    <bendpoint x="10478" y="7107"/>    
+    <bendpoint x="10478" y="8038"/>    
+    <bendpoint x="10478" y="8555"/>    
+    <end type="SOURCE" refId="28" navigable="false">      
+      <attribute id="298" name="immediateBonus">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="299" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="38" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="300">    
+    <end type="SOURCE" refId="4" navigable="false">      
+      <attribute id="301" name="messageHandler">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="302" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="13" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="303">    
+    <end type="SOURCE" refId="86" navigable="false">      
+      <attribute id="304" name="roundArray">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="305" minimum="0" maximum="2147483647">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="20" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="306">    
+    <bendpoint x="2759" y="4741"/>    
+    <bendpoint x="2529" y="5168"/>    
+    <bendpoint x="2550" y="7107"/>    
+    <end type="SOURCE" refId="20" navigable="false">      
+      <attribute id="307" name="yellowCards">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="308" minimum="0" maximum="2147483647">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="48" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="309">    
+    <end type="SOURCE" refId="61"/>    
+    <end type="TARGET" refId="63"/>  
+  </generalization>  
+  <realization id="310">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="13"/>  
+  </realization>  
+  <association id="311">    
+    <end type="SOURCE" refId="4" navigable="false">      
+      <attribute id="312" name="stub">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="313" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="8" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="314">    
+    <end type="SOURCE" refId="37" navigable="false">      
+      <attribute id="315" name="effects">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="316" minimum="0" maximum="2147483647">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="63" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="317">    
+    <end type="SOURCE" refId="107"/>    
+    <end type="TARGET" refId="108"/>  
+  </generalization>  
+  <association id="318">    
+    <end type="SOURCE" refId="20" navigable="false">      
+      <attribute id="319" name="familiar">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="320" minimum="0" maximum="2147483647">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="79" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="321">    
+    <end type="SOURCE" refId="24" navigable="false">      
+      <attribute id="322" name="towers">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="323" minimum="0" maximum="2147483647">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="35" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="324">    
+    <bendpoint x="1250" y="4741"/>    
+    <bendpoint x="1250" y="3504"/>    
+    <bendpoint x="1250" y="2609"/>    
+    <bendpoint x="1250" y="2074"/>    
+    <bendpoint x="1250" y="1755"/>    
+    <bendpoint x="1250" y="788"/>    
+    <end type="SOURCE" refId="23" navigable="false">      
+      <attribute id="325" name="gameBoard">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="326" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="24" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="327">    
+    <end type="SOURCE" refId="51"/>    
+    <end type="TARGET" refId="63"/>  
+  </generalization>  
+  <generalization id="328">    
+    <end type="SOURCE" refId="52"/>    
+    <end type="TARGET" refId="63"/>  
+  </generalization>  
+  <realization id="329">    
+    <end type="SOURCE" refId="27"/>    
+    <end type="TARGET" refId="30"/>  
+  </realization>  
+  <association id="330">    
+    <end type="SOURCE" refId="84" navigable="false">      
+      <attribute id="331" name="firstHarvest">        
+        <position height="18" width="65" x="3191" y="1643"/>      
+      </attribute>      
+      <multiplicity id="332" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="27" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="333">    
+    <bendpoint x="2550" y="5168"/>    
+    <bendpoint x="2529" y="7107"/>    
+    <bendpoint x="2508" y="8038"/>    
+    <end type="SOURCE" refId="41" navigable="false">      
+      <attribute id="334" name="harvestBonus">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="335" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="36" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="336">    
+    <end type="SOURCE" refId="62"/>    
+    <end type="TARGET" refId="63"/>  
+  </generalization>  
+  <association id="337">    
+    <end type="SOURCE" refId="7" navigable="false">      
+      <attribute id="338" name="messageHandler">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="339" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="13" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="340">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="10"/>  
+  </realization>  
+  <association id="341">    
+    <end type="SOURCE" refId="22" navigable="false">      
+      <attribute id="342" name="f">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="343" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="79" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="344">    
+    <bendpoint x="1208" y="788"/>    
+    <bendpoint x="1208" y="1755"/>    
+    <bendpoint x="1208" y="2074"/>    
+    <bendpoint x="1208" y="2609"/>    
+    <bendpoint x="1208" y="3504"/>    
+    <bendpoint x="1229" y="4741"/>    
+    <end type="SOURCE" refId="24" navigable="false">      
+      <attribute id="345" name="game">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="346" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="23" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="347">    
+    <end type="SOURCE" refId="14" navigable="false">      
+      <attribute id="348" name="waiter">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="349" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="12" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="350">    
+    <end type="SOURCE" refId="35" navigable="false">      
+      <attribute id="351" name="state">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="352" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="85" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="353">    
+    <end type="SOURCE" refId="49"/>    
+    <end type="TARGET" refId="63"/>  
+  </generalization>  
+  <association id="354">    
+    <end type="SOURCE" refId="88" navigable="false">      
+      <attribute id="355" name="game">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="356" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="23" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="357">    
+    <bendpoint x="1229" y="2609"/>    
+    <bendpoint x="1187" y="3504"/>    
+    <bendpoint x="1166" y="4741"/>    
+    <bendpoint x="1166" y="5168"/>    
+    <bendpoint x="1208" y="7107"/>    
+    <bendpoint x="1208" y="8038"/>    
+    <end type="SOURCE" refId="32" navigable="false">      
+      <attribute id="358" name="immediateBonus">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="359" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="36" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="360">    
+    <bendpoint x="2508" y="4741"/>    
+    <bendpoint x="2508" y="5168"/>    
+    <bendpoint x="2508" y="7107"/>    
+    <bendpoint x="2529" y="8038"/>    
+    <bendpoint x="2529" y="8555"/>    
+    <end type="SOURCE" refId="20" navigable="false">      
+      <attribute id="361" name="familiarOffer">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="362" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="38" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="363">    
+    <end type="SOURCE" refId="4" navigable="false">      
+      <attribute id="364" name="gameActions">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="365" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="102" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="366">    
+    <end type="SOURCE" refId="14" navigable="false">      
+      <attribute id="367" name="buffer">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="368" minimum="0" maximum="2147483647">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="6" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="369">    
+    <end type="SOURCE" refId="106" navigable="false">      
+      <attribute id="370" name="stubClientToServer">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="371" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="102" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="372">    
+    <end type="SOURCE" refId="4" navigable="false">      
+      <attribute id="373" name="setupInterface">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="374" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="98" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="375">    
+    <end type="SOURCE" refId="2" navigable="false">      
+      <attribute id="376" name="controller">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="377" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="9" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="378">    
+    <bendpoint x="2240" y="4741"/>    
+    <bendpoint x="2500" y="3504"/>    
+    <end type="SOURCE" refId="23" navigable="false">      
+      <attribute id="379" name="state">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="380" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="86" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="381">    
+    <end type="SOURCE" refId="34"/>    
+    <end type="TARGET" refId="30"/>  
+  </realization>  
+  <association id="382">    
+    <end type="SOURCE" refId="46" navigable="false">      
+      <attribute id="383" name="firstCost">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="384" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="38" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="385">    
+    <end type="SOURCE" refId="36" navigable="false">      
+      <attribute id="386" name="resources">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="387" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="38" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="388">    
+    <end type="SOURCE" refId="46" navigable="false">      
+      <attribute id="389" name="finalBonus">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="390" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="38" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="391">    
+    <end type="SOURCE" refId="96" navigable="false">      
+      <attribute id="392" name="welcome">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="393" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="100" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="394">    
+    <bendpoint x="3322" y="2609"/>    
+    <end type="SOURCE" refId="22" navigable="false">      
+      <attribute id="395" name="p">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="396" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="20" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="397">    
+    <end type="SOURCE" refId="56"/>    
+    <end type="TARGET" refId="63"/>  
+  </generalization>  
+  <association id="398">    
+    <end type="SOURCE" refId="103" navigable="false">      
+      <attribute id="399" name="user">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="400" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="106" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="401">    
+    <bendpoint x="1271" y="3504"/>    
+    <bendpoint x="1208" y="4741"/>    
+    <bendpoint x="1208" y="5168"/>    
+    <bendpoint x="1353" y="7107"/>    
+    <bendpoint x="1499" y="8038"/>    
+    <end type="SOURCE" refId="21" navigable="false">      
+      <attribute id="402" name="temporalBonus">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="403" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="36" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="404">    
+    <end type="SOURCE" refId="24" navigable="false">      
+      <attribute id="405" name="productionArea">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="406" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="31" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="407">    
+    <end type="SOURCE" refId="79" navigable="false">      
+      <attribute id="408" name="owner">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="409" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="20" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="410">    
+    <end type="SOURCE" refId="54"/>    
+    <end type="TARGET" refId="63"/>  
+  </generalization>  
+  <generalization id="411">    
+    <end type="SOURCE" refId="77"/>    
+    <end type="TARGET" refId="63"/>  
+  </generalization>  
+  <association id="412">    
+    <end type="SOURCE" refId="20" navigable="false">      
+      <attribute id="413" name="greenCards">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="414" minimum="0" maximum="2147483647">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="41" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="415">    
+    <end type="SOURCE" refId="108" navigable="false">      
+      <attribute id="416" name="game">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="417" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="23" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="418">    
+    <end type="SOURCE" refId="4" navigable="false">      
+      <attribute id="419" name="welcomeInterface">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="420" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="101" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="421">    
+    <end type="SOURCE" refId="59"/>    
+    <end type="TARGET" refId="63"/>  
+  </generalization>  
+  <association id="422">    
+    <bendpoint x="10457" y="1755"/>    
+    <bendpoint x="10457" y="2074"/>    
+    <bendpoint x="10457" y="2609"/>    
+    <bendpoint x="10457" y="3504"/>    
+    <bendpoint x="10457" y="4741"/>    
+    <end type="SOURCE" refId="40" navigable="false">      
+      <attribute id="423" name="malus">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="424" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="37" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="425">    
+    <end type="SOURCE" refId="106" navigable="false">      
+      <attribute id="426" name="stubServerToClient">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="427" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="8" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="428">    
+    <bendpoint x="3604" y="8555"/>    
+    <end type="SOURCE" refId="48" navigable="false">      
+      <attribute id="429" name="cost">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="430" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="38" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="431">    
+    <bendpoint x="3280" y="2609"/>    
+    <end type="SOURCE" refId="27" navigable="false">      
+      <attribute id="432" name="player">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="433" minimum="0" maximum="2147483647">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="20" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="434">    
+    <bendpoint x="10436" y="2609"/>    
+    <bendpoint x="10478" y="3504"/>    
+    <bendpoint x="10499" y="4741"/>    
+    <bendpoint x="10499" y="5168"/>    
+    <bendpoint x="10499" y="7107"/>    
+    <bendpoint x="10499" y="8038"/>    
+    <bendpoint x="10499" y="8555"/>    
+    <end type="SOURCE" refId="22" navigable="false">      
+      <attribute id="435" name="discount">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="436" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="38" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="437">    
+    <end type="SOURCE" refId="66"/>    
+    <end type="TARGET" refId="63"/>  
+  </generalization>  
+  <association id="438">    
+    <bendpoint x="3321" y="4741"/>    
+    <bendpoint x="2571" y="5168"/>    
+    <bendpoint x="2571" y="7107"/>    
+    <bendpoint x="2550" y="8038"/>    
+    <end type="SOURCE" refId="45" navigable="false">      
+      <attribute id="439" name="immediateBonus">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="440" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="36" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="441">    
+    <end type="SOURCE" refId="4" navigable="false">      
+      <attribute id="442" name="waiter">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="443" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="12" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="444">    
+    <bendpoint x="3599" y="4741"/>    
+    <end type="SOURCE" refId="20" navigable="false">      
+      <attribute id="445" name="permBonusMalus">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="446" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="37" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="447">    
+    <end type="SOURCE" refId="86" navigable="false">      
+      <attribute id="448" name="playersArray">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="449" minimum="0" maximum="2147483647">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="20" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="450">    
+    <end type="SOURCE" refId="73"/>    
+    <end type="TARGET" refId="63"/>  
+  </generalization>  
+  <association id="451">    
+    <bendpoint x="3599" y="2609"/>    
+    <bendpoint x="3599" y="3504"/>    
+    <end type="SOURCE" refId="22" navigable="false">      
+      <attribute id="452" name="color">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="453" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="25" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="454">    
+    <bendpoint x="10520" y="788"/>    
+    <bendpoint x="10520" y="1755"/>    
+    <bendpoint x="10520" y="2074"/>    
+    <bendpoint x="10520" y="2609"/>    
+    <bendpoint x="10520" y="3504"/>    
+    <bendpoint x="10520" y="4741"/>    
+    <bendpoint x="10520" y="5168"/>    
+    <bendpoint x="10520" y="7107"/>    
+    <bendpoint x="10520" y="8038"/>    
+    <bendpoint x="10520" y="8555"/>    
+    <end type="SOURCE" refId="24" navigable="false">      
+      <attribute id="455" name="faithPointsBonuses">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="456" minimum="0" maximum="2147483647">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="38" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="457">    
+    <end type="SOURCE" refId="34" navigable="false">      
+      <attribute id="458" name="familiar">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="459" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="79" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="460">    
+    <end type="SOURCE" refId="78"/>    
+    <end type="TARGET" refId="63"/>  
+  </generalization>  
+  <association id="461">    
+    <end type="SOURCE" refId="81" navigable="false">      
+      <attribute id="462" name="scoreboard">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="463" minimum="0" maximum="2147483647">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="82" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="464">    
+    <bendpoint x="4707" y="5168"/>    
+    <bendpoint x="4749" y="7107"/>    
+    <bendpoint x="3875" y="8038"/>    
+    <bendpoint x="3875" y="8555"/>    
+    <end type="SOURCE" refId="39" navigable="false">      
+      <attribute id="465" name="cost">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="466" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="38" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="467">    
+    <bendpoint x="3557" y="7107"/>    
+    <bendpoint x="3620" y="5168"/>    
+    <bendpoint x="3620" y="4741"/>    
+    <end type="SOURCE" refId="48"/>    
+    <end type="TARGET" refId="45"/>  
+  </generalization>  
+  <association id="468">    
+    <end type="SOURCE" refId="20" navigable="false">      
+      <attribute id="469" name="user">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="470" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="108" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="471">    
+    <end type="SOURCE" refId="74"/>    
+    <end type="TARGET" refId="63"/>  
+  </generalization>  
+  <generalization id="472">    
+    <end type="SOURCE" refId="106"/>    
+    <end type="TARGET" refId="108"/>  
+  </generalization>  
+  <association id="473">    
+    <bendpoint x="2112" y="3504"/>    
+    <bendpoint x="1931" y="4741"/>    
+    <end type="SOURCE" refId="97" navigable="false">      
+      <attribute id="474" name="game">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="475" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="23" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="476">    
+    <end type="SOURCE" refId="45" navigable="false">      
+      <attribute id="477" name="color">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="478" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="25" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="479">    
+    <end type="SOURCE" refId="68"/>    
+    <end type="TARGET" refId="63"/>  
+  </generalization>  
+  <association id="480">    
+    <end type="SOURCE" refId="83" navigable="false">      
+      <attribute id="481" name="councilSpaces">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="482" minimum="0" maximum="2147483647">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="34" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="483">    
+    <end type="SOURCE" refId="14"/>    
+    <end type="TARGET" refId="8"/>  
+  </realization>  
+  <association id="484">    
+    <bendpoint x="3301" y="2609"/>    
+    <end type="SOURCE" refId="28" navigable="false">      
+      <attribute id="485" name="player">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="486" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="20" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="487">    
+    <end type="SOURCE" refId="84" navigable="false">      
+      <attribute id="488" name="harvests">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="489" minimum="0" maximum="2147483647">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="27" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="490">    
+    <bendpoint x="3854" y="8038"/>    
+    <bendpoint x="4728" y="7107"/>    
+    <bendpoint x="4728" y="5168"/>    
+    <bendpoint x="4728" y="4741"/>    
+    <end type="SOURCE" refId="46"/>    
+    <end type="TARGET" refId="45"/>  
+  </generalization>  
+  <association id="491">    
+    <end type="SOURCE" refId="36" navigable="false">      
+      <attribute id="492" name="bonusActionDiscount">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="493" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="38" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="494">    
+    <end type="SOURCE" refId="20" navigable="false">      
+      <attribute id="495" name="leaderCardsInHand">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="496" minimum="0" maximum="2147483647">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="43" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="497">    
+    <end type="SOURCE" refId="26" navigable="false">      
+      <attribute id="498" name="productionSet">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="499" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="38" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="500">    
+    <bendpoint x="1800" y="3504"/>    
+    <bendpoint x="1800" y="4741"/>    
+    <end type="SOURCE" refId="99" navigable="false">      
+      <attribute id="501" name="game">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="502" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="23" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="503">    
+    <end type="SOURCE" refId="65"/>    
+    <end type="TARGET" refId="63"/>  
+  </generalization>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+    sort-features="false" accessors="true" visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true" static="true"/>    
+    <operations public="true" package="true" protected="true" private="true" static="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>

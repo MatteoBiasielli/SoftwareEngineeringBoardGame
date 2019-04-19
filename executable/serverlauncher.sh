@@ -1,0 +1,1 @@
+java -Xmx1024m it.polimi.ingsw.LM6.server.network.ServerLauncher

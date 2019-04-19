@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="268.0" prefWidth="333.0" stylesheets="@background.css" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="it.polimi.ingsw.LM6.client.gui.OfferController">
+   <children>
+      <Button fx:id="plusServants" layoutX="200.0" layoutY="182.0" mnemonicParsing="false" onAction="#onPlusServantsClick" prefHeight="11.0" prefWidth="1.0" text="+">
+         <font>
+            <Font size="10.0" />
+         </font>
+      </Button>
+      <Button fx:id="minusServants" layoutX="221.0" layoutY="182.0" mnemonicParsing="false" onAction="#onMinusServantsClick" prefHeight="23.0" prefWidth="21.0" text="-">
+         <font>
+            <Font size="10.0" />
+         </font>
+      </Button>
+      <TextField fx:id="servants" editable="false" layoutX="152.0" layoutY="181.0" prefHeight="25.0" prefWidth="48.0" text="0" />
+      <Label layoutX="92.0" layoutY="185.0" text="Servants:" />
+      <Button fx:id="send" layoutX="134.0" layoutY="223.0" mnemonicParsing="false" onAction="#onSendClick" text="Send Offer" />
+      <Button fx:id="plusCoins" layoutX="200.0" layoutY="149.0" mnemonicParsing="false" onAction="#onPlusCoinsClick" prefHeight="11.0" prefWidth="1.0" text="+">
+         <font>
+            <Font size="10.0" />
+         </font>
+      </Button>
+      <Button fx:id="minusCoins" layoutX="221.0" layoutY="149.0" mnemonicParsing="false" onAction="#onMinusCoinsClick" prefHeight="23.0" prefWidth="21.0" text="-">
+         <font>
+            <Font size="10.0" />
+         </font>
+      </Button>
+      <TextField fx:id="coins" editable="false" layoutX="152.0" layoutY="148.0" prefHeight="25.0" prefWidth="48.0" text="0" />
+      <Label layoutX="92.0" layoutY="152.0" text="Coins:" />
+      <Button fx:id="plusStones" layoutX="200.0" layoutY="117.0" mnemonicParsing="false" onAction="#onPlusStonesClick" prefHeight="11.0" prefWidth="1.0" text="+">
+         <font>
+            <Font size="10.0" />
+         </font>
+      </Button>
+      <Button fx:id="minusStones" layoutX="221.0" layoutY="117.0" mnemonicParsing="false" onAction="#onMinusStonesClick" prefHeight="23.0" prefWidth="21.0" text="-">
+         <font>
+            <Font size="10.0" />
+         </font>
+      </Button>
+      <TextField fx:id="stones" editable="false" layoutX="152.0" layoutY="116.0" prefHeight="25.0" prefWidth="48.0" text="0" />
+      <Label layoutX="92.0" layoutY="120.0" text="Stones:" />
+      <Button fx:id="plusWood" layoutX="200.0" layoutY="84.0" mnemonicParsing="false" onAction="#onPlusWoodClick" prefHeight="11.0" prefWidth="1.0" text="+">
+         <font>
+            <Font size="10.0" />
+         </font>
+      </Button>
+      <Button fx:id="minusWood" layoutX="221.0" layoutY="84.0" mnemonicParsing="false" onAction="#onMinusWoodClick" prefHeight="23.0" prefWidth="21.0" text="-">
+         <font>
+            <Font size="10.0" />
+         </font>
+      </Button>
+      <TextField fx:id="wood" editable="false" layoutX="152.0" layoutY="83.0" prefHeight="25.0" prefWidth="48.0" text="0" />
+      <Label layoutX="92.0" layoutY="87.0" text="Wood:" />
+      <Label layoutX="22.0" layoutY="48.0" text="Offer your resources to get the extra familiar.">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="68.0" layoutY="22.0" text="Familiar Offer Phase starts.">
+         <font>
+            <Font name="System Bold" size="17.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

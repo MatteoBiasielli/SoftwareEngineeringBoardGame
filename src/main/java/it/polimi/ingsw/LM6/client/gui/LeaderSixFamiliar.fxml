@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.ToggleGroup?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="200.0" prefWidth="300.0" stylesheets="@background.css" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="it.polimi.ingsw.LM6.client.gui.LeaderSixController">
+   <children>
+      <Label layoutX="103.0" layoutY="42.0" text="Select the familiar." />
+      <Button fx:id="send" layoutX="102.0" layoutY="143.0" mnemonicParsing="false" onAction="#onSendClick" text="Raise value to 6" />
+      <RadioButton fx:id="orange" layoutX="117.0" layoutY="65.0" mnemonicParsing="false" selected="true" text="ORANGE">
+         <toggleGroup>
+            <ToggleGroup fx:id="b" />
+         </toggleGroup>
+      </RadioButton>
+      <RadioButton fx:id="black" layoutX="117.0" layoutY="82.0" mnemonicParsing="false" text="BLACK" toggleGroup="$b" />
+      <RadioButton fx:id="white" layoutX="117.0" layoutY="99.0" mnemonicParsing="false" text="WHITE" toggleGroup="$b" />
+      <RadioButton fx:id="uncoloured" layoutX="117.0" layoutY="116.0" mnemonicParsing="false" text="UNCOLOUR" toggleGroup="$b" />
+   </children>
+</AnchorPane>

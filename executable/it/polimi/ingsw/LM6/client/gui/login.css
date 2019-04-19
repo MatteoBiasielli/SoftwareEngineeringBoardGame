@@ -1,0 +1,7 @@
+AnchorPane {
+    -fx-background-image:url('./resources/loginbackground.jpg');
+    -fx-background-size: cover, auto;
+}
+Label, RadioButton{
+	-fx-text-fill:#000000;
+}

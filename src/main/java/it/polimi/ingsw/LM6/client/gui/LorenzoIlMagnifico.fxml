@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="385.0" prefWidth="462.0" stylesheets="@background.css" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="it.polimi.ingsw.LM6.client.gui.LorenzoIlMagnificoController">
+   <children>
+      <Label layoutX="115.0" layoutY="32.0" text="Choose the leader to copy">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <ImageView fx:id="tile1" fitHeight="224.0" fitWidth="175.0" layoutX="144.0" layoutY="80.0" pickOnBounds="true" />
+      <Button fx:id="send" layoutX="210.0" layoutY="334.0" mnemonicParsing="false" onAction="#onSendClick" text="Send" />
+      <Button fx:id="minus" layoutX="99.0" layoutY="180.0" mnemonicParsing="false" onAction="#onMinusClick" text="&lt;&lt;" />
+      <Button fx:id="plus" layoutX="332.0" layoutY="180.0" mnemonicParsing="false" onAction="#onPlusClick" text="&gt;&gt;" />
+   </children>
+</AnchorPane>

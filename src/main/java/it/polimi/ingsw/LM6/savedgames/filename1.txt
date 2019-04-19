@@ -1,0 +1,35 @@
+2
+3
+false
+c;b;a;
+c
+102W 101St 106C 97Se 132VP 98MP 
+117
+ 
+56;
+30;
+77;74;
+ 
+ 
+b
+102W 104St 105C 103Se 100VP 100MP 100FP 
+117
+4;
+ 
+ 
+ 
+ 
+ 
+a
+102W 102St 102C 103Se 100VP 100MP 100FP 
+117
+ 
+50;
+ 
+ 
+ 
+ 
+oneCoinMalus  !125!b!a!
+YAB=-4   !133!
+loseOneVPEveryFive  !139!
+j

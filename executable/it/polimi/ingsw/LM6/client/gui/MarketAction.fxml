@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.ToggleGroup?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="200.0" prefWidth="300.0" stylesheets="@background.css" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="it.polimi.ingsw.LM6.client.gui.MarketActionController">
+   <children>
+      <Button fx:id="plus" layoutX="177.0" layoutY="19.0" mnemonicParsing="false" onAction="#onPlusClick" prefHeight="11.0" prefWidth="1.0" text="+">
+         <font>
+            <Font size="10.0" />
+         </font>
+      </Button>
+      <Button fx:id="minus" layoutX="198.0" layoutY="19.0" mnemonicParsing="false" onAction="#onMinusClick" prefHeight="23.0" prefWidth="21.0" text="-">
+         <font>
+            <Font size="10.0" />
+         </font>
+      </Button>
+      <TextField fx:id="servants" editable="false" layoutX="129.0" layoutY="18.0" prefHeight="25.0" prefWidth="48.0" text="0" />
+      <Label layoutX="69.0" layoutY="22.0" text="Servants:" />
+      <Label layoutX="192.0" layoutY="48.0" text="Space" />
+      <RadioButton fx:id="zero" layoutX="196.0" layoutY="65.0" mnemonicParsing="false" selected="true" text="5 Coins">
+         <toggleGroup>
+            <ToggleGroup fx:id="c" />
+         </toggleGroup>
+      </RadioButton>
+      <RadioButton fx:id="one" layoutX="196.0" layoutY="82.0" mnemonicParsing="false" text="5 Servants" toggleGroup="$c" />
+      <RadioButton fx:id="two" layoutX="196.0" layoutY="99.0" mnemonicParsing="false" text="3 MP   2 Coins" toggleGroup="$c" />
+      <RadioButton fx:id="three" layoutX="196.0" layoutY="116.0" mnemonicParsing="false" text="2 CB Different" toggleGroup="$c" />
+      <Button fx:id="send" layoutX="92.0" layoutY="150.0" mnemonicParsing="false" onAction="#onSendClick" text="Send Market Action" />
+      <Label layoutX="51.0" layoutY="48.0" text="Familiar" />
+      <RadioButton fx:id="orange" layoutX="39.0" layoutY="65.0" mnemonicParsing="false" selected="true" text="ORANGE">
+         <toggleGroup>
+            <ToggleGroup fx:id="b" />
+         </toggleGroup>
+      </RadioButton>
+      <RadioButton fx:id="black" layoutX="39.0" layoutY="82.0" mnemonicParsing="false" text="BLACK" toggleGroup="$b" />
+      <RadioButton fx:id="white" layoutX="39.0" layoutY="99.0" mnemonicParsing="false" text="WHITE" toggleGroup="$b" />
+      <RadioButton fx:id="uncoloured" layoutX="39.0" layoutY="116.0" mnemonicParsing="false" text="UNCOLOUR" toggleGroup="$b" />
+   </children>
+</AnchorPane>

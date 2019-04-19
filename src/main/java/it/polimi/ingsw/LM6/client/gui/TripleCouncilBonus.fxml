@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.ToggleGroup?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="200.0" prefWidth="456.0" stylesheets="@background.css" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="it.polimi.ingsw.LM6.client.gui.TripleCouncilBonusController">
+   <children>
+      <Button fx:id="send" layoutX="63.0" layoutY="140.0" mnemonicParsing="false" onAction="#onSendClick" text="Send Request" />
+      <Label layoutX="48.0" layoutY="31.0" text="Bonus 1" />
+      <RadioButton fx:id="coins" layoutX="31.0" layoutY="65.0" mnemonicParsing="false" text="2 Coins">
+         <toggleGroup>
+            <ToggleGroup fx:id="b" />
+         </toggleGroup>
+      </RadioButton>
+      <RadioButton fx:id="servants" layoutX="31.0" layoutY="82.0" mnemonicParsing="false" text="2 Servants" toggleGroup="$b" />
+      <RadioButton fx:id="military" layoutX="31.0" layoutY="99.0" mnemonicParsing="false" text="2 Military Points" toggleGroup="$b" />
+      <RadioButton fx:id="faith" layoutX="31.0" layoutY="116.0" mnemonicParsing="false" text="1 Faith Point" toggleGroup="$b" />
+      <RadioButton fx:id="woodStone" layoutX="31.0" layoutY="48.0" mnemonicParsing="false" selected="true" text="1 Wood/1 Stone" toggleGroup="$b" />
+      <Button fx:id="renounce" layoutX="310.0" layoutY="140.0" mnemonicParsing="false" onAction="#onRenounceClick" text="Renounce" />
+      <Label layoutX="185.0" layoutY="31.0" text="Bonus 2" />
+      <RadioButton fx:id="coins1" layoutX="168.0" layoutY="65.0" mnemonicParsing="false" text="2 Coins">
+         <toggleGroup>
+            <ToggleGroup fx:id="a" />
+         </toggleGroup>
+      </RadioButton>
+      <RadioButton fx:id="servants1" layoutX="168.0" layoutY="82.0" mnemonicParsing="false" text="2 Servants" toggleGroup="$a" />
+      <RadioButton fx:id="military1" layoutX="168.0" layoutY="99.0" mnemonicParsing="false" text="2 Military Points" toggleGroup="$a" />
+      <RadioButton fx:id="faith1" layoutX="168.0" layoutY="116.0" mnemonicParsing="false" text="1 Faith Point" toggleGroup="$a" />
+      <RadioButton fx:id="woodStone1" layoutX="168.0" layoutY="48.0" mnemonicParsing="false" selected="true" text="1 Wood/1 Stone" toggleGroup="$a" />
+      <Label layoutX="327.0" layoutY="31.0" text="Bonus 3" />
+      <RadioButton fx:id="coins2" layoutX="310.0" layoutY="65.0" mnemonicParsing="false" text="2 Coins">
+         <toggleGroup>
+            <ToggleGroup fx:id="c" />
+         </toggleGroup></RadioButton>
+      <RadioButton fx:id="servants2" layoutX="310.0" layoutY="82.0" mnemonicParsing="false" text="2 Servants" toggleGroup="$c" />
+      <RadioButton fx:id="military2" layoutX="310.0" layoutY="99.0" mnemonicParsing="false" text="2 Military Points" toggleGroup="$c" />
+      <RadioButton fx:id="faith2" layoutX="310.0" layoutY="116.0" mnemonicParsing="false" text="1 Faith Point" toggleGroup="$c" />
+      <RadioButton fx:id="woodStone2" layoutX="310.0" layoutY="48.0" mnemonicParsing="false" selected="true" text="1 Wood/1 Stone" toggleGroup="$c" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,21 @@
+name;Rwood;Rstone;Rcoins;Rservants;RMP;RFP;RVP;sixCardsReq;Rgreencard;Ryellowcard;Rbluecard;Rpurplecard;Bwood;Bstone;Bcoins;Bservants;BMP;BFP;BVP;Bcouncil;diversiFlag;bonusprodFlag;bonusHarvFlag;BPHStrength;BBlack;BWhite;BOrange;BUncoloured;flag
+Giovanni dalle Bande Nere;0;0;0;0;12;0;0;false;0;0;0;0;1;1;1;0;0;0;0;0;false;false;false;0;0;0;0;0;none;UPT ricevi 1W 1St 1C;97
+Girolamo Savonarola;0;0;18;0;0;0;0;false;0;0;0;0;0;0;0;0;0;1;0;0;false;false;false;0;0;0;0;0;none;UPT ricevi 1FP;98
+Cosimo de Medici;0;0;0;0;0;0;0;false;0;4;2;0;0;0;0;3;0;0;1;0;false;false;false;0;0;0;0;0;none;UPT ricevi 3Se 1VP;99
+Michelangelo Buonarroti;0;10;0;0;0;0;0;false;0;0;0;0;0;0;3;0;0;0;0;0;false;false;false;0;0;0;0;0;none;UPT ricevi 3C;100
+Ludovico III Gonzaga;0;0;0;15;0;0;0;false;0;0;0;0;0;0;0;0;0;0;0;1;false;false;false;0;0;0;0;0;none;UPT ricevi 1CB;101
+Sandro Botticelli;10;0;0;0;0;0;0;false;0;0;0;0;0;0;0;0;2;0;1;0;false;false;false;0;0;0;0;0;none;UPT ricevi 2MP 1VP;102
+Bartolomeo Colleoni;0;0;0;0;0;0;0;false;4;0;0;2;0;0;0;0;0;0;4;0;false;false;false;0;0;0;0;0;none;UPT ricevi 4VP;103
+Sigismondo Malatesta;0;0;0;0;7;3;0;false;0;0;0;0;0;0;0;0;0;0;0;0;false;false;false;0;0;0;0;3;none;PERM 3UFB;104
+Lucrezia Borgia;0;0;0;0;0;0;0;true;0;0;0;0;0;0;0;0;0;0;0;0;false;false;false;0;2;2;2;0;none;PERM 2OFB 2BFB 2WFB;105
+Francesco Sforza;0;0;0;0;0;0;0;false;0;0;0;5;0;0;0;0;0;0;0;0;false;false;true;1;0;0;0;0;none;UPT BonusHarv Str=1;106
+Leonardo da Vinci;0;0;0;0;0;0;0;false;2;0;4;0;0;0;0;0;0;0;0;0;false;true;false;0;0;0;0;0;none;UPT BonusProd Str=0;107
+Santa Rita;0;0;0;0;0;8;0;false;0;0;0;0;0;0;0;0;0;0;0;0;false;false;false;0;0;0;0;0;doubleWoodStoneCoinsServantsFromCards;PERM double W Se C St from cards;108
+Ludovico il Moro;0;0;0;0;0;0;0;false;2;2;2;2;0;0;0;0;0;0;0;0;false;false;false;0;0;0;0;0;fixedFiveBonus;PERM tutti i familiari colorati Str=5;109
+Filippo Brunelleschi;0;0;0;0;0;0;0;false;0;5;0;0;0;0;0;0;0;0;0;0;false;false;false;0;0;0;0;0;noTowerCoinsCost;PERM non devi spendere 3 monete aggiuntive per le torri occupate;110
+Cesare Borgia;0;0;12;0;0;2;0;false;0;3;0;0;0;0;0;0;0;0;0;0;false;false;false;0;0;0;0;0;noMilitaryRequirements;PERM no military requirement per le carte verdi;111
+Ludovico Ariosto;0;0;0;0;0;0;0;false;0;0;5;0;0;0;0;0;0;0;0;0;false;false;false;0;0;0;0;0;canGoInOccupiedSpaces;PERM puoi piazzare i familiari in spazi azione occupati;112
+Federico da Montefeltro;0;0;0;0;0;0;0;false;5;0;0;0;0;0;0;0;0;0;0;0;false;false;false;0;0;0;0;0;oneSixFamiliarPerTurn;PERM Uno dei tuoi familiari colorati ha valore 6, senza contare il dado;113
+Sisto IV;6;6;6;6;0;0;0;false;0;0;0;0;0;0;0;0;0;0;0;0;false;false;false;0;0;0;0;0;faithBonus;PERM ricevi 5VP se doni fedeltà alla chiesa;114
+Pico della Mirandola;0;0;0;0;0;0;0;false;0;2;0;4;0;0;0;0;0;0;0;0;false;false;false;0;0;0;0;0;threeCoinsDiscount;PERM quando prendi carte sviluppo ricevi uno sconto di tre monete;115
+Lorenzo De Medici;0;0;0;0;0;0;35;false;0;0;0;0;0;0;0;0;0;0;0;0;false;false;false;0;0;0;0;0;lorenzo;PERM Copia l'abilita di un altro leader in gioco;116

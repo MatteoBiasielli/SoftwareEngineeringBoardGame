@@ -1,0 +1,25 @@
+number;name;era;Cwood;Cstone;Ccoins;CServants;VP;FP;prodStrength;P1fixedflag;P1exchangeFlag;P1VariableFlag;C1wood;C1stone;C1Coin;C1Servants;C1FP;B1wood;B1stone;B1coin;B1servants;B1MP;B1FP;B1VP;B1Council;B1DiversiFlag;dependON;twoProductionFlag;C2wood;C2stone;C2Coin;C2Servants;C2FP;B2wood;B2stone;B2coin;B2servants;B2MP;B2FP;B2VP
+25;Zecca;1;1;3;0;0;5;0;5;false;false;true;0;0;0;0;0;0;0;1;0;0;0;0;0;false;Y;false;0;0;0;0;0;0;0;0;0;0;0;0
+26;Esattoria;1;3;1;0;0;5;0;5;false;false;true;0;0;0;0;0;0;0;1;0;0;0;0;0;false;G;false;0;0;0;0;0;0;0;0;0;0;0;0
+27;Arco di Trionfo;1;0;2;2;0;6;0;6;false;false;true;0;0;0;0;0;0;0;0;0;0;0;1;0;false;P;false;0;0;0;0;0;0;0;0;0;0;0;0
+28;Teatro;1;2;0;2;0;6;0;6;false;false;true;0;0;0;0;0;0;0;0;0;0;0;1;0;false;B;false;0;0;0;0;0;0;0;0;0;0;0;0
+29;Falegnameria;1;2;0;1;0;3;0;4;false;true;false;1;0;0;0;0;0;0;3;0;0;0;0;0;false;N;true;2;0;0;0;0;0;0;5;0;0;0;0
+30;Tagliapietre;1;0;2;1;0;2;0;3;false;true;false;0;1;0;0;0;0;0;3;0;0;0;0;0;false;N;true;0;2;0;0;0;0;0;5;0;0;0;0
+31;Cappella;1;2;0;0;0;0;1;2;false;true;false;0;0;1;0;0;0;0;0;0;0;1;0;0;false;N;false;0;0;0;0;0;0;0;0;0;0;0;0
+32;Residenza;1;0;2;0;0;1;0;1;false;true;false;0;0;1;0;0;0;0;0;0;0;0;0;1;false;N;false;0;0;0;0;0;0;0;0;0;0;0;0
+33;Mercato;2;2;1;0;0;3;0;3;false;true;false;0;0;3;0;0;2;2;0;0;0;0;0;0;false;N;false;0;0;0;0;0;0;0;0;0;0;0;0
+34;Tesoreria;2;3;0;0;0;4;0;3;false;true;false;0;0;1;0;0;0;0;0;0;0;0;3;0;false;N;true;0;0;2;0;0;0;0;0;0;0;0;5
+35;Gilda di Pittori;2;4;0;0;0;5;0;4;false;true;false;1;0;0;0;0;0;0;0;0;0;0;3;0;false;N;true;3;0;0;0;0;0;0;0;0;0;0;7
+36;Gilda degli Scultori;2;0;4;0;0;6;0;5;false;true;false;0;1;0;0;0;0;0;0;0;0;0;3;0;false;N;true;0;3;0;0;0;0;0;0;0;0;0;7
+37;Gilda dei Costruttori;2;1;2;0;0;4;0;4;false;true;false;1;1;0;1;0;0;0;0;0;0;0;6;0;false;N;false;0;0;0;0;0;0;0;0;0;0;0;0
+38;Battistero;2;0;3;0;0;2;1;2;false;true;false;0;0;0;0;1;0;0;2;0;0;0;2;0;false;N;false;0;0;0;0;0;0;0;0;0;0;0;0
+39;Caserma;2;1;1;0;0;3;0;1;false;true;false;0;0;0;1;0;0;0;0;0;3;0;0;0;false;N;false;0;0;0;0;0;0;0;0;0;0;0;0
+40;Fortezza;2;2;2;2;0;8;0;6;true;false;false;0;0;0;0;0;0;0;0;0;2;0;2;0;false;N;false;0;0;0;0;0;0;0;0;0;0;0;0
+41;Banca;3;1;3;3;0;7;0;2;true;false;false;0;0;0;0;0;0;0;5;0;0;0;0;0;false;N;false;0;0;0;0;0;0;0;0;0;0;0;0
+42;Fiera;3;3;0;4;0;8;0;4;false;true;false;0;0;4;0;0;3;3;0;0;0;0;0;0;false;N;false;0;0;0;0;0;0;0;0;0;0;0;0
+43;Giardino;3;4;2;0;2;10;0;1;true;false;false;0;0;0;0;0;0;0;0;0;0;0;3;0;false;N;false;0;0;0;0;0;0;0;0;0;0;0;0
+44;Castelletto;3;2;4;2;0;9;0;5;true;false;false;0;0;0;0;0;0;0;0;0;0;0;2;1;false;N;false;0;0;0;0;0;0;0;0;0;0;0;0
+45;Palazzo;3;3;1;3;0;9;0;6;false;true;false;0;0;1;0;0;0;0;0;2;0;0;4;0;false;N;false;0;0;0;0;0;0;0;0;0;0;0;0
+46;Basilica;3;1;4;0;0;5;1;1;false;true;false;1;0;0;0;0;0;0;0;0;0;2;0;0;false;N;true;0;1;0;0;0;0;0;0;0;0;2;0
+47;Accademia Militare;3;2;2;0;1;7;0;3;false;true;false;0;0;0;1;0;0;0;0;0;3;0;1;0;false;N;false;0;0;0;0;0;0;0;0;0;0;0;0
+48;Cattedrale;3;4;4;0;0;7;3;2;true;false;false;0;0;0;0;0;0;0;0;0;0;0;1;0;false;N;false;0;0;0;0;0;0;0;0;0;0;0;0

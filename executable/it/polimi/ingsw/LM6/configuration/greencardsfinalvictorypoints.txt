@@ -1,0 +1,7 @@
+NumberOfCards;VPBonus
+1;0
+2;0
+3;1
+4;4
+5;10
+6;20

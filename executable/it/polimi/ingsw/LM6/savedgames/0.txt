@@ -1,0 +1,34 @@
+2
+3
+false
+c;a;b;
+c
+3W 3St 5C 4Se 
+117
+ 
+52;
+ 
+ 
+ 
+ 
+a
+7W 1St 5C 3Se 1VP 
+117
+5;
+ 
+32;
+ 
+ 
+ 
+b
+1W 3St 7C 4VP 
+117
+3;
+56;
+ 
+80;
+ 
+ 
+PB=-3   !126!c!a!
+skipFirstActionMalus  !129!
+loseOneVPEveryMP  !142!
