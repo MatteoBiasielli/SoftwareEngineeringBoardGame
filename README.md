@@ -1,5 +1,5 @@
 # Software Engineering Board Game
-Software Engineering - Matteo Biasielli, Luca Dondoni and Emilio Capo's Final project - Politecnico di Milano
+Software Engineering - Matteo Biasielli, Luca Dondoni and Emilio Capo's Final Bachelor's Project - Politecnico di Milano
 
 # The game
 This is a Java implementation of the board game "Lorenzo Il Magnifico", from Cranio Creations.
